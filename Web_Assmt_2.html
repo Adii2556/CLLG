@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+</head>
+<body>
+    <h1>Food Ordering</h1>
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+
+            <label for="uid">User ID:</label>
+            <input type="text" id="uid" />
+            <br><br>
+
+            <label for="pwrd">Password:</label><br />
+            <input type="password" id="pwrd" />
+            <br><br>
+
+            <label for="phn">Phone Number:</label><br />
+            <input type="text" id="phn" />
+            <br><br>
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" />
+            <br><br>
+            </fieldset>
+            <br>
+        <fieldset>
+            <legend>Order Information</legend>
+
+            <label for="odate">Order Date:</label><br />
+            <input type="date" id="odate" />
+            <br><br>
+
+            <label for="food">Select Food Item:</label><br>
+            <select id="food" red>
+                <option>--Select--</option>
+                <option>Pizza</option>
+                <option>Burger</option>
+                <option>Pasta</option>
+                <option>Salad</option>
+            </select>
+            <br><br>
+
+            <span>Extra Toppings:</span><br>
+            <input type="checkbox" id="Extra Cheese">
+            <label for="Extra Cheese">Extra Cheese</label><br>
+            <input type="checkbox" id="mushrooms">
+            <label for="mushrooms">Mushrooms</label><br>
+            <input type="checkbox" id="sweetcorn">
+            <label for="sweetcorn">Sweet Corn</label><br>
+            <input type="checkbox" id="olives">
+            <label for="olives">Olives</label>
+            <br><br>
+
+            <span>Payment Method:</span><br>
+            <input type="radio" id="cash" name="payment">
+            <label for="cash">Cash on Delivery</label><br>
+            <input type="radio" id="card" name="payment">
+            <label for="card">Credit/Debit Card</label><br>
+            <input type="radio" id="UPI" name="payment">
+            <label for="UPI">UPI</label>
+        </fieldset>
+        <br><br>
+        
+        <input type="submit" value="Submit Order" /><br><br>
+        <input type="reset" value="Clear Form" />
+    </form>
+</body>
+</html>
